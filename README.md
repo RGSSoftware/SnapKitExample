@@ -8,13 +8,17 @@ profileImageView.translatesAutoresizingMaskIntoConstraints = false
 profileNameLabel.translatesAutoresizingMaskIntoConstraints = false
 
 profileImageView.leftAnchor.constraint(equalTo: profileImageView.superview.leftAnchor, constant: 16).isActive = true
-profileImageView.widthAnchor.constraint(equalTo: profileImageView.heightAnchor).isActive = true
-profileImageView.heightAnchor.constraint(equalToConstant: 50).isActive = true
-profileImageView.centerYAnchor.constraint(equalTo: profileImageView.superview.centerYAnchor).isActive = true
-
 profileImageView.rightAnchor.constraint(equalTo: profileNameLabel.leftAnchor, constant: -16).isActive = true
 
+profileImageView.widthAnchor.constraint(equalTo: profileImageView.heightAnchor).isActive = true
+profileImageView.heightAnchor.constraint(equalToConstant: 50).isActive = true
+
+profileImageView.centerYAnchor.constraint(equalTo: profileImageView.superview.centerYAnchor).isActive = true
+
+\\\\\\\
+
 profileNameLabel.rightAnchor.constraint(equalTo: profileNameLabel.superview.rightAnchor, constant: 8).isActive = true
+
 profileNameLabel.centerYAnchor.constraint(equalTo: profileNameLabel.superview.centerYAnchor).isActive = true
 ```
 
