@@ -1,7 +1,8 @@
-# SnapKitExp
 
-Quick SnapKit example:
 
+##Quick SnapKit example:
+
+###NSLayoutConstraint
 ```Swift
 profileImageView.translatesAutoresizingMaskIntoConstraints = false
 profileNameLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -17,6 +18,7 @@ profileNameLabel.rightAnchor.constraint(equalTo: profileNameLabel.superview.righ
 profileNameLabel.centerYAnchor.constraint(equalTo: profileNameLabel.superview.centerYAnchor).isActive = true
 ```
 
+###SnapKit
 ```Swift
 profileImageView.snp.makeConstraints{ make in
 
